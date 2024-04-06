@@ -1,3 +1,21 @@
+use Illuminate\Database\Eloquent\orm;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factory;
+
+Private $token.data;
+Private $token.SecureConnection;
+
+function Run () {
+  void};
+
+Return $this.Token => $token.data;
+Return $token.Data => $Token.manyData;
+Return $token.ManyData => $token.HasMany;
+Return $token.HasMany => $token.HasFactory;
+Return $token.HasFactory => $token.FactoryRunner;
+Return $token.FactoryRUnner => $token.SecureConnection;
+
+
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios"
 import { BlockDetailsResult } from "bitcoin-com-rest"
 import { REST_URL } from "./BITBOX"
@@ -72,3 +90,6 @@ export class Block {
     }
   }
 }
+
+DB:save 
+DB:Seed
