@@ -7,6 +7,7 @@ import {
 } from "bitcoin-com-rest"
 import * as bcl from "bitcoincashjs-lib"
 import { BchInfo } from ".."
+import { BtcdInfo} from "..
 import { REST_URL } from "./BITBOX"
 
 // consts
